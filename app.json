@@ -18,10 +18,16 @@
       "adaptiveIcon": {
         "foregroundImage": "./app/assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.pradeepjavafsdev.SDSAdminApp"
     },
     "web": {
       "favicon": "./app/assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "f37d54d0-b29a-4ab5-b0d3-c43abf97ddf2"
+      }
     }
   }
 }

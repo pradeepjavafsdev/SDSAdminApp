@@ -1,6 +1,9 @@
 {
+  
   "extends": "expo/tsconfig.base",
   "compilerOptions": {
-    "strict": true
+    "strict": true,
+    "types": ["node"], // Ensure "node" is included if you're using Node types
+    "typeRoots": ["./node_modules/@types", "./node_modules"]
   }
 }
